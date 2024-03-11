@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/BoundedCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/BoundedCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/WorkerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/WorkerA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/WorkerB.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/check_act/WorkerB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/cs_raw/MyWorkerA.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/cs_raw/MyWorkerA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/cs_raw/MyWorkerB.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/cs_raw/MyWorkerB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/lost_updates/TestLostUpdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/lost_updates/TestLostUpdates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/lost_updates/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab02/lost_updates/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/TestCheckAndAct.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/WorkerB.class.uniqueId1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +53,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lab02&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/matteoiorio/Desktop/University/Programmazione Concorrente/pcd-2023-2024&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "lab03",
+    "last_opened_file_path": "/Users/matteoiorio/Desktop/University/Programmazione Concorrente/pcd-2023-2024",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.TestCSWithRawSynchBlocks">
+}]]></component>
+  <component name="RunManager" selected="Application.TestCSWithLocks">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pcd.lab01.hello.Main" />
       <module name="pcd-2023-2024.app.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pcd.lab01.hello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RunTransactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab03.liveness.accounts_exercise.RunTransactions" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab03.liveness.accounts_exercise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +107,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pcd.lab01.ex01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCSWithLocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab03.cswithlocks.TestCSWithLocks" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab03.cswithlocks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +172,15 @@
       <item itemvalue="Application.TestCSWithRawSynchBlocks" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SequentialSort" />
+      <item itemvalue="Application.RunTransactions" />
+      <item itemvalue="Application.TestCSWithLocks" />
       <item itemvalue="Application.TestCheckAndAct" />
       <item itemvalue="Application.TestLostUpdates" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestCSWithLocks" />
+        <item itemvalue="Application.RunTransactions" />
         <item itemvalue="Application.TestCheckAndAct" />
         <item itemvalue="Application.TestLostUpdates" />
       </list>
@@ -172,6 +198,7 @@
       <workItem from="1709556519622" duration="5448000" />
       <workItem from="1709799939993" duration="175000" />
       <workItem from="1709802792043" duration="4000" />
+      <workItem from="1710159771830" duration="1736000" />
     </task>
     <servers />
   </component>
