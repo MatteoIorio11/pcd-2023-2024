@@ -2,16 +2,17 @@ package pcd.lab02.cs_raw;
 
 public class MyWorkerB extends Worker {
 	
-	private Object lock;
+	final private Object lock;
 	
-	public MyWorkerB(String name, Object lock){
+	public MyWorkerB(final String name, final Object lock){
 		super(name);
 		this.lock = lock;
 	}
 
 	public void run(){
 		while (true){
-		  synchronized(lock){
+			// sync using the object lock
+		  synchronized(this.lock){
 			  action1();	
 			  action2();
 		  }

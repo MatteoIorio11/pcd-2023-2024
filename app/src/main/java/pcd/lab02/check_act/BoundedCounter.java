@@ -3,7 +3,7 @@ package pcd.lab02.check_act;
 public class BoundedCounter {
 
 	private int cont;
-	private int min, max;
+	public int min, max;
 	
 	public BoundedCounter(int min, int max){
 		this.cont = this.min = min;

@@ -2,9 +2,9 @@ package pcd.lab02.cs_raw;
 
 public class MyWorkerA extends Worker {
 	
-	private Object lock;
+	final private Object lock; // shared object
 	
-	public MyWorkerA(String name, Object lock){
+	public MyWorkerA(final String name, final Object lock){
 		super(name);
 		this.lock = lock;
 	}
@@ -12,9 +12,9 @@ public class MyWorkerA extends Worker {
 	public void run(){
 		while (true){
 		  action1();	
-		  synchronized(lock){
-			  action2();	
-			  action3();	
+		  synchronized(this.lock){
+			  action2(); // critical section
+			  action3(); // critical section
 		  }
 		}
 	}
