@@ -1,9 +1,9 @@
 package pcd.lab03.liveness.deadlock_obs;
 
 public class AgentTwo extends Thread {
- 	MyObserver obj;
+ 	private final MyObserver obj;
 	
- 	public AgentTwo(MyObserver obj){
+ 	public AgentTwo(final MyObserver obj){
  		this.obj = obj;
  	}
  	
@@ -13,7 +13,7 @@ public class AgentTwo extends Thread {
 		}
 	}
 
-	private void log(String msg){
+	private void log(final String msg){
 		synchronized(System.out){
 			System.out.println("["+this+"] "+msg);
 		}

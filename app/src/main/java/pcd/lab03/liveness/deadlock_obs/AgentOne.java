@@ -1,9 +1,9 @@
 package pcd.lab03.liveness.deadlock_obs;
 
 public class AgentOne extends Thread {
- 	MyObservedEntity obj;
+ 	private final MyObservedEntity obj;
 	
- 	public AgentOne(MyObservedEntity obj){
+ 	public AgentOne(final MyObservedEntity obj){
  		this.obj = obj;
  	}
  	

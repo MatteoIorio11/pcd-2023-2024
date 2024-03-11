@@ -5,14 +5,14 @@ import java.util.List;
 
 public class MyObservedEntity implements Observed {
 
-	private List<Observer> obsList;
+	private final List<Observer> obsList;
 	private int state;
 
 	public MyObservedEntity(){
-		obsList = new ArrayList<Observer>();
+		obsList = new ArrayList<>();
 	}
 
-	public void register(Observer obs) {
+	public synchronized void register(final Observer obs) {
 		obsList.add(obs);
 	}
 
@@ -22,14 +22,14 @@ public class MyObservedEntity implements Observed {
 
 	public synchronized void changeState1() {
 		state++;
-		for (Observer o: obsList){
+		for (final Observer o: obsList){
 			o.notifyStateChanged(this);
 		}
 	}
 
 	public synchronized void changeState2() {
 		state--;
-		for (Observer o: obsList){
+		for (final Observer o: obsList){
 			o.notifyStateChanged(this);
 		}
 	}

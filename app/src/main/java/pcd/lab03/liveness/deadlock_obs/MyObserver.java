@@ -5,18 +5,18 @@ import java.util.List;
 
 class MyObserver implements Observer {
 
-	List<Observed> obsList;
+	private final List<Observed> obsList;
 
 	public MyObserver(){
-		obsList = new ArrayList<Observed>();
+		this.obsList = new ArrayList<Observed>();
 	}
 	
-	public synchronized void observe(Observed obj){
+	public synchronized void observe(final Observed obj){
 		obsList.add(obj);
 		obj.register(this);
 	}
 	
-	public synchronized void notifyStateChanged(Observed obs) {
+	public synchronized void notifyStateChanged(final Observed obs) {
 		synchronized(System.out){
 			System.out.println("state changed: "+obs.getState());
 		}
@@ -24,7 +24,7 @@ class MyObserver implements Observer {
 
 	public synchronized int getOverallState() {
 		int sum = 0;
-		for (Observed o: obsList){
+		for (final Observed o: obsList){
 			sum += o.getState();
 		}
 		return sum;
