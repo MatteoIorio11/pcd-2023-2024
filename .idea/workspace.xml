@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/AccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/RunTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/RunTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/TransferAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/TransferAgent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -195,11 +192,15 @@
       <workItem from="1709556519622" duration="5448000" />
       <workItem from="1709799939993" duration="175000" />
       <workItem from="1709802792043" duration="4000" />
-      <workItem from="1710159771830" duration="4896000" />
+      <workItem from="1710159771830" duration="6471000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
