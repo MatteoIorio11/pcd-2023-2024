@@ -16,7 +16,7 @@ class MyObserver implements Observer {
 		obj.register(this);
 	}
 	
-	public synchronized void notifyStateChanged(final Observed obs) {
+	public void notifyStateChanged(final Observed obs) {
 		synchronized(System.out){
 			System.out.println("state changed: "+obs.getState());
 		}
