@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/compileTransaction/stash-dir/TestCSWithLocks.class.uniqueId0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/AccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/AccountManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/RunTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/RunTransactions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/TransferAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/accounts_exercise/TransferAgent.java" afterDir="false" />
@@ -204,7 +195,7 @@
       <workItem from="1709556519622" duration="5448000" />
       <workItem from="1709799939993" duration="175000" />
       <workItem from="1709802792043" duration="4000" />
-      <workItem from="1710159771830" duration="3807000" />
+      <workItem from="1710159771830" duration="4896000" />
     </task>
     <servers />
   </component>

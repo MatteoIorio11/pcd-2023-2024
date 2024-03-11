@@ -16,10 +16,10 @@ public class RunTransactions {
 	
 	public static void main(String[] args) {
 		final List<Lock> locks = Stream.generate(ReentrantLock::new).limit(NUM_ACCOUNTS).collect(Collectors.toList());
-		final AccountManager man = new AccountManager(NUM_ACCOUNTS,1000);
+		final AccountManager man = new AccountManager(NUM_ACCOUNTS,1000, locks);
 		
 		for (int i = 0; i < NUM_TRANSFER_AGENTS; i++){
-			new TransferAgent(man, NUM_ITERATIONS, locks).start();
+			new TransferAgent(man, NUM_ITERATIONS).start();
 		}
 	}
 }
