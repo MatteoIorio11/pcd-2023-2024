@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/deadlock_obs/MyObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab03/liveness/deadlock_obs/MyObserver.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +212,8 @@
       <workItem from="1710159771830" duration="6471000" />
       <workItem from="1710166921463" duration="1406000" />
       <workItem from="1710170934057" duration="42000" />
-      <workItem from="1710177613742" duration="825000" />
+      <workItem from="1710177613742" duration="1486000" />
+      <workItem from="1710240198650" duration="12000" />
     </task>
     <servers />
   </component>
