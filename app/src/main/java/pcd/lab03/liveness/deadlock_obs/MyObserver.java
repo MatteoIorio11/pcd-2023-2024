@@ -5,10 +5,10 @@ import java.util.List;
 
 class MyObserver implements Observer {
 
-	List<Observed> obsList;
+	private final List<Observed> obsList;
 
 	public MyObserver(){
-		obsList = new ArrayList<Observed>();
+		this.obsList = new ArrayList<Observed>();
 	}
 	
 	public synchronized void observe(Observed obj){
