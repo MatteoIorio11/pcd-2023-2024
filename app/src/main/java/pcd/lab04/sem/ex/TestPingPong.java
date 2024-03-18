@@ -15,6 +15,8 @@ public class TestPingPong {
 		final Semaphore pong = new Semaphore(0);
 		new Pinger(ping, pong).start();
 		new Ponger(ping, pong).start();
+
+		pong.release();
 	}
 
 }
