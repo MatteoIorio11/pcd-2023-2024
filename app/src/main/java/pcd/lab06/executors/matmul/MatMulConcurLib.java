@@ -27,18 +27,19 @@ public class MatMulConcurLib {
 		try {
 			for (int i = 0; i < matA.getNRows(); i++){
 				for (int j = 0; j < matB.getNColumns(); j++){
-					exec.execute(new ComputeElemTask(i,j,matA,matB,matC));
+					//exec.execute(new ComputeElemTask(i,j,matA,matB,matC));
 					
 					// Alternative: using a lambda expression to specify the task
-					/* 					
+
+					int finalI = i;
+					int finalJ = j;
 					exec.execute(() -> {
 						double sum = 0;
 						for (int k = 0; k < matA.getNColumns(); k++){
-							sum += matA.get(i, k)*matB.get(k, j);
+							sum += matA.get(finalI, k)*matB.get(k, finalJ);
 						}
-						matC.set(i,j,sum);
+						matC.set(finalI, finalJ,sum);
 					});
-					*/
 				}
 			}
 			exec.shutdown();

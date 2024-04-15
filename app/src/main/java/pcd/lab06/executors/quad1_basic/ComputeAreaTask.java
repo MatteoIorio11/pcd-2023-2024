@@ -19,7 +19,7 @@ public class ComputeAreaTask implements Runnable {
 		double step = (b - a) / 1000;
 		double x = a;
 		for (int i = 0; i < 1000; i++) {
-			sum += step * mf.eval(x);
+			sum += step * mf.eval(x); // b * h
 			x += step;
 		}
 		result.add(sum);

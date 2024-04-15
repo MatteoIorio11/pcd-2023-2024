@@ -24,6 +24,14 @@ public class MyTask implements Runnable {
 		jobB();
 		log("completed.");
 	}
+	public void runA(){
+		log("started.");
+		jobA();
+	}
+	public void runB(){
+		this.jobB();
+		log("completed.");
+	}
 
 	private void jobA() {
 		log("job A done.");

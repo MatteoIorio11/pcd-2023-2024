@@ -19,20 +19,20 @@ public class FolderSearchTask extends RecursiveTask<Long> {
     @Override
     protected Long compute() {
         long count = 0L;
-        List<RecursiveTask<Long>> forks = new LinkedList<RecursiveTask<Long>>();
-        for (Folder subFolder : folder.getSubFolders()) {
+        final List<RecursiveTask<Long>> forks = new LinkedList<RecursiveTask<Long>>();
+        for (final Folder subFolder : folder.getSubFolders()) {
             FolderSearchTask task = new FolderSearchTask(wc, subFolder, searchedWord);
             forks.add(task);
             task.fork();
         }
         
-        for (Document document : folder.getDocuments()) {
+        for (final Document document : folder.getDocuments()) {
             DocumentSearchTask task = new DocumentSearchTask(wc, document, searchedWord);
             forks.add(task);
             task.fork();
         }
         
-        for (RecursiveTask<Long> task : forks) {
+        for (final RecursiveTask<Long> task : forks) {
             count = count + task.join();
         }
         return count;

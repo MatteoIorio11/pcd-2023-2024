@@ -10,6 +10,7 @@ public class TestScalabilityVT2 {
 		var t0 = System.currentTimeMillis();
 		try (var executor = Executors.newVirtualThreadPerTaskExecutor()) {
 		    IntStream.range(0, 100_000).forEach(i -> {
+				System.out.println(i);
 		        executor.submit(() -> {
 		            Thread.sleep(Duration.ofSeconds(1));
 		            return i;
