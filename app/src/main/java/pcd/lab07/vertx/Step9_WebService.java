@@ -24,8 +24,8 @@ class WebService extends AbstractVerticle {
 	
 	public void start() {
 		log("Service initializing...");
-		HttpServer server = vertx.createHttpServer();
-		Router router = Router.router(vertx);
+		final HttpServer server = vertx.createHttpServer();
+		final Router router = Router.router(vertx);
 
 		router.route().handler(BodyHandler.create());
 
@@ -60,6 +60,7 @@ class WebService extends AbstractVerticle {
 		});
 		
 		router.route().handler(BodyHandler.create());
+
 		
 		router
 		.route(HttpMethod.POST, "/api/task/inc")

@@ -17,7 +17,21 @@ class VerticleWithPromise extends AbstractVerticle {
 	
 	public void start() {
 		log("started.");
-	
+		final Future<Double> future = this.getDelayedRandom(1000);
+		future.onSuccess(res -> {
+			log("Random value: " + res);
+		});
+		log("Exited");
+	}
+
+	protected Future<Double> getDelayedRandom(final int delay){
+		log("Future creation...");
+		final Promise<Double> promise = Promise.promise();
+		this.getVertx().setTimer(delay, handler -> {
+			promise.complete(Math.random());
+		});
+		log("Future creation is done.");
+		return promise.future();
 	}
 
 	private void log(String msg) {

@@ -20,7 +20,7 @@ public class Step1_basic {
 		/* version 4.X - future (promise) based API */
 		
 		
-		Future<Buffer> fut = fs.readFile("build.gradle.kts");
+		Future<Buffer> fut = fs.readFile("settings.gradle.kts");
 		fut.onComplete((AsyncResult<Buffer> res) -> {
 			log("BUILD \n" + res.result().toString().substring(0,160));
 		});

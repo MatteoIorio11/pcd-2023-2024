@@ -34,8 +34,11 @@ class TestExecBlocking extends AbstractVerticle {
 		// x++;
 
 		res.onComplete((AsyncResult<Integer> r) -> {
-			log("result: " + r.result());
+			if(r.succeeded()) {
+				log("result: " + r.result());
+			}
 		});
+		res.onSuccess(value -> log("result: " + value));
 	}
 
 	private void log(String msg) {

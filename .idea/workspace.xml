@@ -4,7 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="" />
+    <list default="true" id="0e193e1e-5793-4911-8ff2-63a4db321ca0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/d7f838bb16dc243bdd05bfa8f75ef956f6209f3c/metadata.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/d7f838bb16dc243bdd05bfa8f75ef956f6209f3c/sources/org/gradle/accessors/dm/LibrariesForLibs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/d7f838bb16dc243bdd05bfa8f75ef956f6209f3c/sources/org/gradle/accessors/dm/LibrariesForLibsInPluginsBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step1_basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step1_basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step2_withverticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step2_withverticle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step4_promise_exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step4_promise_exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step6_withblocking.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step6_withblocking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step7_EventBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step7_EventBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step9_WebService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/pcd/lab07/vertx/Step9_WebService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,11 +87,11 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TestScalabilityVT2">
+  <component name="RunManager" selected="Application.Step4_promise_exercise">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pcd.lab01.hello.Main" />
       <module name="pcd-2023-2024.app.main" />
@@ -92,6 +120,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Step1_basic" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step1_basic" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Step2_withverticle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step2_withverticle" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Step4_promise_exercise" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step4_promise_exercise" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Step6_withblocking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step6_withblocking" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Step6_withblocking2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step6_withblocking2" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Step7_EventBus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pcd.lab07.vertx.Step7_EventBus" />
+      <module name="pcd-2023-2024.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pcd.lab07.vertx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCSWithRawSynchBlocks" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="temurin-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -107,88 +213,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestScalabilityVT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pcd.lab06.vt.TestScalabilityVT" />
-      <module name="pcd-2023-2024.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pcd.lab06.vt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestScalabilityVT2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pcd.lab06.vt.TestScalabilityVT2" />
-      <module name="pcd-2023-2024.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pcd.lab06.vt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordCounterMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pcd.lab06.executors.forkjoin.WordCounterMain" />
-      <module name="pcd-2023-2024.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pcd.lab06.executors.forkjoin.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pcd.lab06.executors.matmul.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pcd.lab06.executors.matmul.Main" />
-      <module name="pcd-2023-2024.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pcd.lab06.executors.matmul.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pcd.lab06.executors.quad1_basic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pcd.lab06.executors.quad1_basic.Main" />
-      <module name="pcd-2023-2024.app.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pcd.lab06.executors.quad1_basic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.Step1_basic" />
       <item itemvalue="Application.TestCSWithRawSynchBlocks" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SequentialSort" />
-      <item itemvalue="Application.TestScalabilityVT" />
-      <item itemvalue="Application.TestScalabilityVT2" />
-      <item itemvalue="Application.WordCounterMain" />
-      <item itemvalue="Application.pcd.lab06.executors.matmul.Main" />
-      <item itemvalue="Application.pcd.lab06.executors.quad1_basic.Main" />
+      <item itemvalue="Application.Step2_withverticle" />
+      <item itemvalue="Application.Step4_promise_exercise" />
+      <item itemvalue="Application.Step6_withblocking" />
+      <item itemvalue="Application.Step6_withblocking2" />
+      <item itemvalue="Application.Step7_EventBus" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestScalabilityVT2" />
-        <item itemvalue="Application.TestScalabilityVT" />
-        <item itemvalue="Application.WordCounterMain" />
-        <item itemvalue="Application.pcd.lab06.executors.quad1_basic.Main" />
-        <item itemvalue="Application.pcd.lab06.executors.matmul.Main" />
+        <item itemvalue="Application.Step4_promise_exercise" />
+        <item itemvalue="Application.Step6_withblocking2" />
+        <item itemvalue="Application.Step6_withblocking" />
+        <item itemvalue="Application.Step7_EventBus" />
+        <item itemvalue="Application.Step2_withverticle" />
       </list>
     </recent_temporary>
   </component>
@@ -221,6 +263,8 @@
       <workItem from="1713178934007" duration="17000" />
       <workItem from="1713178967945" duration="38000" />
       <workItem from="1713179010998" duration="23000" />
+      <workItem from="1713179036561" duration="7989000" />
+      <workItem from="1713192307911" duration="8000" />
     </task>
     <servers />
   </component>
