@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 Private property of Exodus: 28008@Matteos-MacBook-Pro.local
+=======
+Private property of Exodus: 7919@Matteos-MacBook-Pro.local
+>>>>>>> Stashed changes
 
 jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:88)
 jetbrains.exodus.io.LockingManager.lock(LockingManager.kt:39)

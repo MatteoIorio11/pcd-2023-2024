@@ -4,8 +4,8 @@ import java.util.LinkedList;
 
 public class BoundedBuffer1<Item> implements IBoundedBuffer<Item> {
 
-	private LinkedList<Item> buffer;
-	private int maxSize;
+	private final LinkedList<Item> buffer;
+	private final int maxSize;
 
 	public BoundedBuffer1(int size) {
 		buffer = new LinkedList<Item>();
@@ -34,6 +34,6 @@ public class BoundedBuffer1<Item> implements IBoundedBuffer<Item> {
 	}
 
 	private boolean isEmpty() {
-		return buffer.size() == 0;
+		return buffer.isEmpty();
 	}
 }
