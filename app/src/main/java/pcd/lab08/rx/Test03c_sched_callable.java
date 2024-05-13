@@ -15,11 +15,12 @@ public class Test03c_sched_callable {
 		    log("completed.");
 		    return "Done";
 		})
-		.subscribeOn(Schedulers.io()) 		// use a background thread for the callable
-		.observeOn(Schedulers.single())		// use a single UI thread-like for subscribers
-		.subscribe(s -> {
-			log("result: " + s);
-		});
+				.subscribeOn(Schedulers.io()) 		// use a background thread for the callable
+				.observeOn(Schedulers.single())		// use a single UI thread-like for subscribers
+				.map(s -> s.length())
+				.subscribe(s -> {
+					log("result: " + s);
+				});
 
 		
 		Thread.sleep(2000); // <--- wait for the flow to finish

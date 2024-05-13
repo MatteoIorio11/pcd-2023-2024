@@ -54,7 +54,6 @@ public class Test03a_sched_subscribeon {
 		 * and merging their results back into a single flow 
 		 * warning: flatMap => no order in merging
 		 */
-
 		Flowable.range(1, 1000)
 		  .flatMap(v ->
 		      Flowable.just(v)

@@ -33,7 +33,7 @@ public class Test01_basic {
 		// full subscription: onNext(), onError(), onCompleted()
 		
 		log("Full subscription...");
-		
+
 		Observable.fromArray(words)
 			.subscribe((String s) -> {
 				log("> " + s);
@@ -46,7 +46,6 @@ public class Test01_basic {
 		// operators
 
 		log("simple application of operators");
-		
 		Flowable<Integer> flow = Flowable.range(1, 20)
 			.map(v -> v * v)
 			.filter(v -> v % 3 == 0);

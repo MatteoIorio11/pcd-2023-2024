@@ -10,7 +10,7 @@ public class Test02e_creation_hot_pubsub {
 
 		/* Subjects: bridges functioning both as observer and observable */ 
 
-		PublishSubject<Integer> source = PublishSubject.<Integer>create();
+		PublishSubject<Integer> source = PublishSubject.create();
 		 
 		log("subscribing.");
 
