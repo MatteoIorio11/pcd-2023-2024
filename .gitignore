@@ -16,6 +16,8 @@
 *.nar
 *.ear
 *.zip
+.gradle/
+.idea/
 *.tar.gz
 *.rar
 
